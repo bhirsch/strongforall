@@ -214,6 +214,15 @@
     font-weight: bold;
   }
 
+  h1#page-title.issue-title
+  {
+    color: #880000;
+    text-transform: none;
+    border-bottom: none;
+    font-family: Georgia,"Times New Roman",Times,serif;
+    font-weight: normal;
+  }
+
 /* Views */
 
   /* Title */

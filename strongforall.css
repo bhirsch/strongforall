@@ -7,19 +7,27 @@
 
   p
   {
-    color: black;
+    color: #282323;
     font-size: 16px;
-    line-height: 1.3;
+    line-height: 1.2;
   }
 
   .mainbody
   {
+    margin-top: 187px;
     background: #fefdf2;
   }
 
   .ftrwrpr
   {
     background: #fefdf2; 
+    height: 100%;
+    width: 100%
+    min-height: 315px;
+    padding: 15px 0;
+    margin: 0 0 0 0;
+    float: right;
+    width: 996px;
   }
 
   .subftrwrpr
@@ -29,7 +37,7 @@
 
   #right-col
   {
-    background: none;
+  	   background: none;
   }
 
   .gridwrpr
@@ -40,10 +48,17 @@
   /* header wrapper. distance from top of screen to bottom of main menu / header */
   .hdrwrpr 
   {
-    height: 187px;
-    position: relative;
+   	margin-top: -187px;
+   	height: 180px;
+	background: #fefdf2; 
+    position: fixed;
     width: 996px;
     z-index: 100;
+      /* for IE */
+  filter:alpha(opacity=95);
+  /* CSS3 standard */
+  opacity:0.95;
+  }
   }
   ul#topnav
   {
@@ -81,7 +96,7 @@
   /* secondary menu. distance from top of screen to top of menu */
   .hdrupdtwrpr
   {
-    top: 45px;
+    top: 40px;
   }
 
   /* site name */
@@ -111,21 +126,26 @@
   /** Secondary menu items */
   #secondary a
   {
-    color: black;
+    color: #282323;
     text-transform: uppercase;
     font-family: arial;
     font-size: 14px;
   }
+  
+  #secondary ul.links {
+margin-bottom: 10px;
+}
 
 /* blocks */
   h3.modttlred
   {
-    border-bottom: 8px solid black;
-    color: black;
+    border-bottom: 8px solid #282323;
+    color: #282323;
     font-family: arial;
     text-transform: uppercase;
     font-weight: bold;
-    font-size: 18px;
+    font-size: 19px;
+    letter-spacing: 0px;
   }
 
   /* Block header size */
@@ -137,7 +157,7 @@
   /* recent posts */
   .view-id-recent_posts .dateln
   {
-    color: black;
+    color: #282323;
     font-family: arial;
     font-size: 10px;
     text-transform: uppercase;
@@ -158,13 +178,15 @@
   /* text */
   .view-front-page-main .content 
   {
-    font-family: garmond; font-size: 18px; line-height: 30px;
+    margin-top: -30px;
+    font-family: georgia; font-size: 25px; line-height: 30px;
   }
+  
 
   /* footer */
   #footer
   {
-    border-top: 8px solid black;
+    border-top: 8px solid #282323;
     padding-top:20px;
   }
   /* hide footer breadcrumb area */
@@ -189,27 +211,37 @@
 /*#block-views-issues_nav-block_1 h3.modttlblue */
 {
   text-transform: uppercase;
-  color: black;
-  border-bottom: 8px solid black;
+  letter-spacing: 0px;
+  color: #282323;
+  border-bottom: 8px solid #282323;
   font-family: arial;
   font-size: 18px;
   font-weight: bold;
+  margin-bottom: 10px;
 }
 
 #left_col h3.modhdgblue a
 {
   text-transform: none;
-  color: black;
-  font-family: "Times New Roman";
-  font-size: 16px;
+  color: #282323;
+  font-family: arial;
+  font-size: 13px;
+  line-height: 17px;
 }
 
 /* Page */
+#header
+  {
+    margin: -7px;
+  }
+
   h1#page-title
   {
-    color: black;
+	margin-top: -30px;
+  	font-size: 19px;
+    color: #282323;
     text-transform: uppercase;
-    border-bottom: black solid 8px;
+    border-bottom: #282323 solid 8px;
     font-family: arial;
     font-weight: bold;
   }
@@ -246,12 +278,12 @@
 
   div.event-list-teaser
   {
-    color: black; 
+    color: #282323; 
   }
 
   .view-events-list thead th
   {
-    background-color: black;
+    background-color: #282323;
   }
 
   .view-events-list thead th a
@@ -262,7 +294,7 @@
 
   .view-events-list tr
   {
-    border-bottom: black 8px solid;
+    border-bottom: #282323 8px solid;
   }
 
   .view-events-list td
@@ -282,7 +314,7 @@
   /* front page slideshow, slideshow_panoramic_4 */
   #block-views-slideshow_panoramic_4-block_4
   {
-    border-bottom: 8px solid black;
+    border-bottom: 8px solid #282323;
   }
   #block-views-slideshow_panoramic_4-block_4 .block-inner
   {
@@ -372,3 +404,93 @@ border-left: none;
 {
 color: #4e0f6e;
 }
+
+/* from teddy */
+
+strong, em, b, i, .bold {
+    font-family: Georgia;
+}
+
+#left_col div {
+    float: none;
+    padding: 0px;
+}
+
+#left_col {
+    line-height: 1.2em;
+}
+
+#content ul {
+    list-style-type: disc;
+    list-style-position: inside;
+}
+
+#content li {
+    margin-top: -5px;
+    font-style: italic;
+    padding: 0;
+}
+
+#content {
+    float: left;
+    padding: 25px 0 0 0;
+    width: 455px;
+}
+
+ul#topnav li a, ul#topnav li a:hover {
+  border: none;
+  background: none;
+  font-family: arial;
+  font-weight: bold;
+  padding: 0px 0 0 0;
+  text-align: left;
+  text-transform: uppercase;
+}
+
+.mod-hdr h3.modhdgred, h3.modhdgblue, h3.modhdgwhite {
+  font-size: 18px;
+  margin: 10px 0 0;
+  padding: 0;
+}
+
+ul#topnav li a, ul#topnav li a:hover {
+  background: none repeat scroll 0 0 transparent;
+  border: medium none;
+  font-family: arial;
+  font-size: 10px;
+  font-weight: bold;
+  margin-top: 0px;
+  letter-spacing: 1px;
+  margin-left: -16px;
+  padding: 0.5px;
+  text-align: left;
+  text-transform: uppercase;
+}
+
+.view-id-recent_posts .dateln {
+  color: #5c5b56;
+  font-family: arial;
+  font-size: 10px;
+  text-transform: uppercase;
+  margin-bottom:  -15px;
+}
+
+#secondary a {
+  color: #282323;
+  font-family: arial;
+  font-size: 14px;
+  margin-left: 4px;
+  text-transform: uppercase;
+  font-weight:  bold;
+}
+
+#right-col {
+  background: url("css/assets/templates/right_top_back.gif") no-repeat scroll 0 0 transparent;
+  float: right;
+  line-height: 1.5em;
+  margin: -20px -20px 0 40px;
+  min-height: 400px;
+  padding: 15px;
+  width: 292px;
+}
+

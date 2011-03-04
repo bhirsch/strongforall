@@ -35,11 +35,6 @@
     background: none;
   }
 
-  #right-col
-  {
-  	   background: none;
-  }
-
   .gridwrpr
   {
     background: none;
@@ -503,3 +498,27 @@ ul#topnav li a, ul#topnav li a:hover {
   width: 292px;
 }
 
+.view-button-block div.views-row {
+  padding: 0;
+  margin: 0px 0px 0px -2px;
+}
+
+#right-col{
+  background: url(/profiles/civic/themes/strongforall/css/assets/templates/right_top_back.gif)
+  no-repeat scroll 0 0 transparent;
+  float: right;
+  line-height: 1.5em;
+  margin: -20px -15px 0px 40px;
+  min-height: 400px;
+  padding: 15px;
+  width: 288px;
+}
+
+#right-col .block {
+  margin-bottom: 30px;
+}
+
+.sefa-front-page-main {
+  font-size: 27px;
+  line-height: 32px;
+}

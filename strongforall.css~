@@ -248,27 +248,39 @@ margin-bottom: 10px;
     color: #282323; 
   }
 
+  .recent-event-dateln
+  {
+    color: #666666;
+    font-size: 12px;
+    font-weight: normal;
+    text-transform: uppercase;
+  }
+
   .view-events-list thead th,
-  .view-events-upcoming-list thead th
+  .view-events-upcoming-list thead th,
+  .view-events-past-list thead th
   {
     background-color: #282323;
   }
 
   .view-events-list thead th a,
-  .view-events-upcoming-list thead th a
+  .view-events-upcoming-list thead th a,
+  .view-events-past-list thead th a
   {
     color: white;
     padding-left: 10px;
   }
 
   .view-events-list tr,
-  .view-events-upcoming-list tr
+  .view-events-upcoming-list tr,
+  .view-events-past-list tr
   {
     border-bottom: #282323 8px solid;
   }
 
   .view-events-list td,
-  .view-events-upcoming-list td
+  .view-events-upcoming-list td,
+  .view-events-past-list td
   {
     padding-top: 30px;
     padding-bottom: 30px;

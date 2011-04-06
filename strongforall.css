@@ -248,6 +248,14 @@ margin-bottom: 10px;
     color: #282323; 
   }
 
+  .recent-event-dateln
+  {
+    color: #666666;
+    font-size: 12px;
+    font-weight: normal;
+    text-transform: uppercase;
+  }
+
   .view-events-list thead th,
   .view-events-upcoming-list thead th,
   .view-events-past-list thead th
